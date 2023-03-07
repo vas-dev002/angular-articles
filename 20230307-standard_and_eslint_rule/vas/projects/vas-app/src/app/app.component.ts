@@ -1,7 +1,7 @@
 import { Component, OnDestroy } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
-import { VasAuthDTO } from '../../../vas-generated/rest-api/models/VasAuthDTO';
 import { AppEndpoint } from './app.endpoint';
+import { AuthData } from './app.models';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { AppEndpoint } from './app.endpoint';
 })
 export class AppComponent implements OnDestroy {
   public title = 'vas-app';
-  public authData: VasAuthDTO | null = null;
+  public authData: AuthData | null = null;
   private destroy$ = new Subject<boolean>();
 
   constructor(private appEndpoint: AppEndpoint) {}
@@ -25,7 +25,7 @@ export class AppComponent implements OnDestroy {
       .getData$()
       .pipe(takeUntil(this.destroy$))
       .subscribe((data) => {
-        this.authData = data;
+        this.authData = { ...data, isSomeTemplateRelated: true };
       });
   }
 }
