@@ -18,6 +18,9 @@
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
+      "plugins": [
+      "eslint-plugin-vas-rules"
+      ],
       "rules": {
         "@angular-eslint/directive-selector": [
           "error",
@@ -34,7 +37,8 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],        
+        "vas-rules/no-dto-import": "error"
       }
     },
     {
