@@ -109,9 +109,21 @@
           "options": {
             "browserTarget": "vas-app:build"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/vas-app/**/*.ts",
+              "projects/vas-app/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "vas-app"
+  "defaultProject": "vas-app",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
