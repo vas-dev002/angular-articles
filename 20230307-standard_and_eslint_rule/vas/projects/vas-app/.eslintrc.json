@@ -10,7 +10,7 @@
       ],
       "parserOptions": {
         "project": [
-          "vas/projects/vas-app/tsconfig.app.json"
+          "projects/vas-app/tsconfig.app.json"
         ],
         "createDefaultProgram": true
       },
