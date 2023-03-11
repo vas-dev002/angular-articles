@@ -1,1 +1,8 @@
 <p>page-plan works!</p>
+<ng-container *ngIf="services$ | async; let services">
+  <app-vas-banner-message
+    *ngIf="serviceLimit - services.length < 2"
+    [message]="'We have a better plan'"
+  >
+  </app-vas-banner-message
+></ng-container>
