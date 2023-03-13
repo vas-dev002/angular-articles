@@ -1,8 +1,18 @@
 <p>page-services works!</p>
 <ng-container *ngIf="services$ | async; let services">
-  <p *ngIf="serviceLimit - services.length < 2">You have a lot of services!</p>
+  <p
+    *ngIf="
+      { servicesCount: services.length, servicesLimit: serviceLimit }
+        | planLimitReached
+    "
+  >
+    You have a lot of services!
+  </p>
   <app-vas-banner-message
-    *ngIf="serviceLimit - services.length < 2"
+    *ngIf="
+      { servicesCount: services.length, servicesLimit: serviceLimit }
+        | planLimitReached
+    "
     [message]="'We have a better plan'"
   >
   </app-vas-banner-message

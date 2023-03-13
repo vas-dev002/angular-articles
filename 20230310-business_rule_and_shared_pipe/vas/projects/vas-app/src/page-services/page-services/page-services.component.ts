@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PayPlanService } from '../../services/pay-plan.service';
+import { PayPlanService } from '../../vas-features/pay-plan/pay-plan.service';
 import { PayService } from '../../services/pay-services.service';
 
 @Component({
