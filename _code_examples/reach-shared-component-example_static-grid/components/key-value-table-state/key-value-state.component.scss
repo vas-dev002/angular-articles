@@ -1,0 +1,6 @@
+@import 'src/app/css/core/variables.scss';
+
+:host::ng-deep .ag-cell.ag-cell-not-inline-editing.ag-cell-auto-height.FullText.ag-cell-value[aria-colindex="1"] {
+	color: $color-secondary;
+	opacity: .6;
+}

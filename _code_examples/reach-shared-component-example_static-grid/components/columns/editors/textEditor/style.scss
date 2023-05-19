@@ -1,0 +1,20 @@
+.input-wrapper {
+    padding: 0 45px 0 0;
+}
+
+.input-wrapper .form-control {
+    padding-left: 7px;
+}
+
+.input-wrapper .form-control:focus {
+    border: none;
+}
+
+.input-wrapper .input-toggle {
+    top: 5px;
+    right: 0;
+}
+
+.input-wrapper .input-toggle.btn-save {
+    right: 23px;
+}

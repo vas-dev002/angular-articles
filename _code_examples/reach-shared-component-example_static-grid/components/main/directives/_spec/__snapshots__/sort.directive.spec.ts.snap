@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Sort Controller should return sortModel 1`] = `Array []`;

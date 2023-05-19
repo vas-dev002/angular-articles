@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2019",
+		"module": "commonjs",
+		"sourceMap": false,
+		"outDir": "./",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"strictNullChecks": false,
+		"noUnusedLocals": false,
+		"skipLibCheck": true,
+		"types": [
+			"node",
+			"jest"
+		]
+	},
+	"include": [
+		"src/rules/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"tests",
+		"utils"
+	]
+}

@@ -1,0 +1,48 @@
+<div class="ifl-layout" [formGroup]="form">
+  <div class="ifl-group">
+    <div class="ifl-label">Engagement rate:</div>
+    <div class="ifl-value ifl-value-engagement">
+      <input
+        #engagementInput
+        influencerFilterInput
+        [maxInputLength]="engagementMaxLength"
+        [regExpMask]="engagementMask"
+        formControlName="engagementFrom"
+        [placeholder]="'0%'"
+        type="text"
+        (focus)="onInputFocus(TRACKING.engagement_rate_focus)"
+      />
+      <div *ngIf="engagementInput.value !== null && engagementInput.value !== ''" class="ifl-suffix">
+        <span>{{ engagementInput.value.toString() | slice: 0:engagementMaxLength }}</span>
+        %
+      </div>
+    </div>
+  </div>
+  <div class="ifl-group">
+    <div class="ifl-label">Followers:</div>
+    <div class="ifl-group ifl-group-follower">
+      <input
+        influencerFilterInput
+        [displayFunction]="followersDisplayFunc"
+        [maxInputLength]="followersMaxLength"
+        formControlName="followersFrom"
+        class="ifl-value ifl-value-follower"
+        [placeholder]="'Min'"
+        type="text"
+        (focusout)="onFollowersFocusOut()"
+        (focus)="onInputFocus(TRACKING.followers_min_focus)"
+      />
+      <input
+        influencerFilterInput
+        [displayFunction]="followersDisplayFunc"
+        [maxInputLength]="followersMaxLength"
+        formControlName="followersTo"
+        class="ifl-value ifl-value-follower"
+        [placeholder]="'Max'"
+        type="text"
+        (focusout)="onFollowersFocusOut()"
+        (focus)="onInputFocus(TRACKING.followers_max_focus)"
+      />
+    </div>
+  </div>
+</div>

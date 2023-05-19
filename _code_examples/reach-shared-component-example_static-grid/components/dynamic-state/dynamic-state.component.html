@@ -1,0 +1,5 @@
+
+<div class="new-grid-flag-wrap">
+  <div class="new-grid-flag" matTooltip="New grid"></div>
+  <static-grid class="datagrid-static" [gridMode]="gridMode$ | async" [defaultConfig]="defaultConfig$ | async" [hasData]="hasData$ | async" [columnMetaData]="meta$ | async" [options]="options$ | async" [dynamicModeOptions]="dynamicOptions$ | async" filterControllerSG="" [selectedFilters]="selectedFilters$ | async" (selectedFiltersChange)="setFilters($event)" (visibleColumnsChange)="visibleColumnsChange($event)" [customFilterRules]="customFilterRules$ | async" columnControllerSG="" [selectedGroupColumns]="selectedGroupColumns$ | async" (selectedGroupColumnsChange)="setGroupColumns($event)" [columnState]="columnState$ | async" (columnStateChange)="columnStateChange($event)" sortControllerSG="" [sortModel]="sortModel$ | async" (sortModelChange)="sortModelChange($event)" (gridReady)="onReady($event)" [disabled]="disabled$ | async"></static-grid>
+</div>

@@ -1,0 +1,14 @@
+.new-grid-flag-wrap
+	static-grid.datagrid-static(
+		[gridMode]="gridMode$ | async",
+		[defaultConfig]="defaultConfig$ | async",
+		[rowData]="data$ | async",
+		[hasData]="hasData$ | async",
+		[columnMetaData]="meta$ | async",
+		[options]="options$ | async"
+		columnControllerSG="",
+		[columnState]="columnState$ | async",
+		(columnStateChange)="columnStateChange($event)",
+		(gridReady)="onReady($event)",
+		(cellUpdate)="onCellUpdate($event)",
+		[disabled]="disabled$ | async")

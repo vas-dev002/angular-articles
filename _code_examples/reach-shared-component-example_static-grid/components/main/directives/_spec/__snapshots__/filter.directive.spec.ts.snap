@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Filter Controller should be called onFilterChanged 1`] = `undefined`;
+
+exports[`Static Grid Filter Controller should return selectedFilters 1`] = `Object {}`;
+
+exports[`Static Grid Filter Controller should return selectedFilters when the values are equal 1`] = `
+Object {
+  "key": Object {
+    "filter": "filter",
+    "filterType": "filterType",
+    "type": "type",
+  },
+}
+`;

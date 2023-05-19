@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Option]: TooltipByFunctionOptions [TooltipByFunctionOptions instantiate] should be successfully created 1`] = `
+TooltipByFunctionOptions {
+  "tooltipComponentFramework": [Function],
+  "tooltipValueGetter": [Function],
+}
+`;

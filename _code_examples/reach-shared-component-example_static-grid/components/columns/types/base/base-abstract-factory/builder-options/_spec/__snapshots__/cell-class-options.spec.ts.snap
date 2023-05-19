@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Option]: CellClassOptions [CellClassOptions instantiate] should be successfully created 1`] = `
+CellClassOptions {
+  "cellClass": "testSlotClass",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+}
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Builder option]: BooleanGroupingOptions [BooleanGroupingOptions instantiate] should be successfully created 1`] = `
+BooleanGroupingOptions {
+  "getGroupKey": [Function],
+}
+`;

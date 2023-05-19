@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Builder option]: BooleanFilteringOptions [BooleanSortingOptions instantiate] should be successfully created 1`] = `
+BooleanFilteringOptions {
+  "filterFramework": [Function],
+  "filterParams": Object {
+    "meta": Object {
+      "columnName": "booleanImage",
+      "filterOptions": Array [
+        Object {
+          "text": "True",
+          "value": "True",
+        },
+        Object {
+          "text": "False",
+          "value": "False",
+        },
+      ],
+    },
+  },
+  "floatingFilterComponentFramework": [Function],
+  "floatingFilterComponentParams": Object {
+    "meta": Object {
+      "columnName": "booleanImage",
+      "filterOptions": Array [
+        Object {
+          "text": "True",
+          "value": "True",
+        },
+        Object {
+          "text": "False",
+          "value": "False",
+        },
+      ],
+    },
+    "suppressFilterButton": true,
+  },
+  "getBooleanIndex": [Function],
+  "grid": Object {
+    "rowData": Array [
+      Object {
+        "booleanImage": "True",
+      },
+      Object {
+        "booleanImage": "False",
+      },
+      Object {
+        "booleanImage": "True",
+      },
+    ],
+  },
+  "meta": Object {
+    "columnName": "booleanImage",
+    "controller": Object {},
+    "cssClass": "testCss",
+    "filterType": "Multiselect",
+    "headerName": "Test Header",
+    "isObjectKey": false,
+    "lockVisible": false,
+    "metaFromApi": Object {
+      "columnName": "booleanImage",
+    },
+    "visible": false,
+  },
+}
+`;

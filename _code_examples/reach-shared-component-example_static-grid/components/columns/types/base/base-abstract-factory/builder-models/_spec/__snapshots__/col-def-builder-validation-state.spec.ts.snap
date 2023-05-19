@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Model]: ColDefBuilderValidationState [ColDefBuilderValidationState instantiate] should be successfully created 1`] = `
+ColDefBuilderValidationState {
+  "cellClass": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Cell class rules were already set",
+    "isSet": false,
+    "requiredErrorMessage": "Cell class rules are not set",
+  },
+  "cellRendering": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Cell rendering component was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Cell rendering component is not set",
+  },
+  "colId": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Column id was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Column id is not set",
+  },
+  "filtering": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Filtering was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Filtering is not set",
+  },
+  "grouping": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Grouping was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Grouping is not set",
+  },
+  "headerName": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Header name was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Header name is not set",
+  },
+  "menuTabs": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Menu tabs were already set",
+    "isSet": false,
+    "requiredErrorMessage": "Menu tabs are not set",
+  },
+  "sorting": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Setter was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Sorting is not set",
+  },
+  "tooltip": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Tooltip was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Tooltip is not set",
+  },
+  "valueFormatter": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Value formatter was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Value formatter is not set",
+  },
+  "valueGetter": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Value getter was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Value getter is not set",
+  },
+  "valueSetter": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Value setter was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Value setter is not set",
+  },
+  "visibility": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Visibility was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Visibility is not set",
+  },
+  "width": ColDefBuilderValidationItem {
+    "duplicateErrorMessage": "Width was already set",
+    "isSet": false,
+    "requiredErrorMessage": "Width is not set",
+  },
+}
+`;

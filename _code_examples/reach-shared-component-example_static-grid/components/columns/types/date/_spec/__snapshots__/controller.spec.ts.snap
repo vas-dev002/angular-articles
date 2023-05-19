@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Column Type Date:  Controller: DateControllerSG should return default column definition for date type 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": [Function],
+  "field": "testColumn",
+  "filter": "agDateColumnFilter",
+  "filterParams": Object {
+    "comparator": [Function],
+    "defaultOption": "equals",
+    "filterOptions": Array [
+      "equals",
+      "notEqual",
+      "lessThanOrEqual",
+      "greaterThan",
+      "greaterThanOrEqual",
+    ],
+    "inRangeInclusive": false,
+    "suppressAndOrCondition": true,
+  },
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 50,
+  "sortingOrder": Array [
+    "desc",
+    "asc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipField": undefined,
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+}
+`;
+
+exports[`Static Grid Column Type Date:  Controller: DateControllerSG should return default column definition for datetime type 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": [Function],
+  "field": "testColumn",
+  "filter": "agDateColumnFilter",
+  "filterParams": Object {
+    "comparator": [Function],
+    "defaultOption": "equals",
+    "filterOptions": Array [
+      "equals",
+      "notEqual",
+      "lessThanOrEqual",
+      "greaterThan",
+      "greaterThanOrEqual",
+    ],
+    "inRangeInclusive": false,
+    "suppressAndOrCondition": true,
+  },
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 50,
+  "sortingOrder": Array [
+    "desc",
+    "asc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipField": undefined,
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+}
+`;

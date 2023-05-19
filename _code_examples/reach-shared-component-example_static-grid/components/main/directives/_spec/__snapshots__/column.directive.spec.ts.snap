@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Column Controller should return ColumnControllerSGDirective 1`] = `
+ColumnControllerSGDirective {
+  "columnStateChange": EventEmitter_ {
+    "__isAsync": false,
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+  "columnStateEvent$": Subject {
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+  "destroy$": Subject {
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+  "selectedGroupColumnsChange": EventEmitter_ {
+    "__isAsync": false,
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+}
+`;
+
+exports[`Static Grid Column Controller should return columnApi.getColumnState 1`] = `Array []`;
+
+exports[`Static Grid Column Controller should return columnState 1`] = `
+Array [
+  Object {},
+  Object {},
+]
+`;
+
+exports[`Static Grid Column Controller should return columnState 2`] = `
+ColumnControllerSGDirective {
+  "columnStateChange": EventEmitter_ {
+    "__isAsync": false,
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+  "columnStateEvent$": Subject {
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+  "destroy$": Subject {
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+  "selectedGroupColumnsChange": EventEmitter_ {
+    "__isAsync": false,
+    "_isScalar": false,
+    "closed": false,
+    "hasError": false,
+    "isStopped": false,
+    "observers": Array [],
+    "thrownError": null,
+  },
+}
+`;
+
+exports[`Static Grid Column Controller should return getVisibleColumns 1`] = `
+Array [
+  Object {
+    "getColDef": [Function],
+    "getColId": [Function],
+  },
+]
+`;
+
+exports[`Static Grid Column Controller should return gridOptions.onColumnResized 1`] = `undefined`;
+
+exports[`Static Grid Column Controller should return gridOptions.onColumnRowGroupChanged 1`] = `undefined`;
+
+exports[`Static Grid Column Controller should return selectedGroupColumns 1`] = `Array []`;

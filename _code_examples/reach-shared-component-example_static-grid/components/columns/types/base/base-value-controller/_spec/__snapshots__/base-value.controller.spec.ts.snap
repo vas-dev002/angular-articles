@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Column Type BaseValueControllerSG:  Controller: TestOutcomeControllerSG [Function: customValueGetter() should get TestOutcome value from ValueGetterParams] 1`] = `
+Object {
+  "": "",
+  "-1": -1,
+  "0": 0,
+  "1": 1,
+  "False": "False",
+  "NullData": "",
+  "[object Object]": Object {},
+  "null": null,
+  "text": "text",
+  "true": "true",
+  "undefined": undefined,
+}
+`;
+
+exports[`Static Grid Column Type BaseValueControllerSG:  Controller: TestOutcomeControllerSG should return default column definition 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": undefined,
+  "field": "testColumn",
+  "filterFramework": [Function],
+  "filterParams": Object {
+    "defaultOption": "equals",
+    "filterOptions": Array [
+      "equals",
+      "notEquals",
+    ],
+    "meta": Object {
+      "cellDefaultText": "Unassigned",
+      "filterOptions": Array [],
+    },
+    "selectAllOnMiniFilter": false,
+    "textFormatter": [Function],
+  },
+  "floatingFilterComponentFramework": [Function],
+  "floatingFilterComponentParams": Object {
+    "meta": Object {
+      "cellDefaultText": "Unassigned",
+      "filterOptions": Array [],
+    },
+    "suppressFilterButton": true,
+  },
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 100,
+  "sortingOrder": Array [
+    "asc",
+    "desc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipField": undefined,
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+  "valueGetter": [Function],
+}
+`;

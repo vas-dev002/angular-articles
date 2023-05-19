@@ -1,0 +1,15 @@
+#agGridTable(*ngIf="hasData", tabindex="-1", [class]="disabled ? 'ag-readonly-mode' : 'aggrid-container'")
+	ag-grid-angular.ag-theme-dashworks.mini(
+		#agGrid = '',
+		[gridOptions] = "gridOptions",
+		(gridReady)="onReady($event)",
+		(firstDataRendered)="onFirstDataRendered($event)",
+		[rowData]="rowData",
+		[columnDefs]="columnDefs",
+		[modules]="agGridModules",
+		[ngStyle]="gridStyles",
+		[ngClass] = "{'table-drag' : options.enableRowDragAndDrop}")
+
+#agGridTableEmpty(*ngIf="!hasData")
+	.empty-message
+		| {{ emptyMessage | translate }}

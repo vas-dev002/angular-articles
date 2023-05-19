@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Builder]: ColDefBuilder [сolDefBuilder build] should throw exception if anything was set twice 1`] = `
+Object {
+  "floatingFilter": false,
+  "sortable": false,
+  "suppressMenu": true,
+}
+`;

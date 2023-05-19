@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Column Type Boolean:  Controller: BooleanFactorySG  [Method]: createColDef  should return default column definition 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": [Function],
+  "colId": "testColumn",
+  "comparator": [Function],
+  "enableRowGroup": true,
+  "field": "testColumn",
+  "filterFramework": [Function],
+  "filterParams": Object {
+    "meta": Object {
+      "cellDefaultText": "Unassigned",
+      "filterOptions": Array [],
+    },
+  },
+  "floatingFilterComponentFramework": [Function],
+  "floatingFilterComponentParams": Object {
+    "meta": Object {
+      "cellDefaultText": "Unassigned",
+      "filterOptions": Array [],
+    },
+    "suppressFilterButton": true,
+  },
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 50,
+  "sortingOrder": Array [
+    "desc",
+    "asc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+  "valueGetter": [Function],
+  "width": undefined,
+}
+`;

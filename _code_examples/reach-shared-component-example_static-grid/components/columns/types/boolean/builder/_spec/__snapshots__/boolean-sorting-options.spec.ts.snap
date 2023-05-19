@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Builder option]: BooleanSortingOptions [BooleanSortingOptions instantiate] should be successfully created 1`] = `
+BooleanSortingOptions {
+  "comparator": [Function],
+  "getBooleanIndex": [Function],
+  "grid": Object {
+    "rowData": Array [
+      Object {
+        "booleanImage": "True",
+      },
+      Object {
+        "booleanImage": "False",
+      },
+      Object {
+        "booleanImage": "True",
+      },
+    ],
+  },
+  "meta": Object {
+    "columnName": "booleanImage",
+    "controller": Object {},
+    "cssClass": "testCss",
+    "filterType": "Multiselect",
+    "headerName": "Test Header",
+    "isObjectKey": false,
+    "lockVisible": false,
+    "metaFromApi": Object {
+      "columnName": "booleanImage",
+    },
+    "visible": false,
+  },
+  "sortingOrder": Array [
+    "desc",
+    "asc",
+    null,
+  ],
+}
+`;

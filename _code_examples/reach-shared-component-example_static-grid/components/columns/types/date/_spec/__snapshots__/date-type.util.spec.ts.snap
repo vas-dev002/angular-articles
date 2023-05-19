@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateDasType Utils:  [Function: getValue() should return a tooltip string] 1`] = `
+Object {
+  "0": "",
+  "1": "",
+  "2": "",
+  "3": "",
+  "4": "Feb 8, 2019",
+}
+`;

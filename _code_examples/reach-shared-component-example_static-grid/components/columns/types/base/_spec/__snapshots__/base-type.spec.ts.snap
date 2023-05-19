@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG [Common type test function: getValueGetterResults should handle empty value getter] 1`] = `Object {}`;
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG should handle Empty values when generating FilterOptions 1`] = `
+Array [
+  Object {
+    "text": "Empty",
+    "value": "",
+  },
+  Object {
+    "text": "value",
+    "value": "value",
+  },
+]
+`;
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG should handle customUiTransformation value in metaFromApi 1`] = `
+Object {
+  "defaultOption": "equals",
+  "filterOptions": Array [
+    "equals",
+    "notEquals",
+  ],
+  "meta": Object {
+    "customUiTransformation": "",
+    "filterOptions": Array [],
+  },
+  "selectAllOnMiniFilter": false,
+  "textFormatter": [Function],
+}
+`;
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG should return default column definition 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": Object {},
+  "field": "testColumn",
+  "filterFramework": [Function],
+  "filterParams": Object {
+    "defaultOption": "equals",
+    "filterOptions": Array [
+      "equals",
+      "notEquals",
+    ],
+    "meta": Object {
+      "filterOptions": Array [],
+    },
+    "selectAllOnMiniFilter": false,
+    "textFormatter": [Function],
+  },
+  "floatingFilterComponentFramework": [Function],
+  "floatingFilterComponentParams": Object {
+    "meta": Object {
+      "filterOptions": Array [],
+    },
+    "suppressFilterButton": true,
+  },
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 50,
+  "sortingOrder": Array [
+    "asc",
+    "desc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipField": undefined,
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+}
+`;
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG should return default column definition with None filter type 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": Object {},
+  "field": "testColumn",
+  "filter": false,
+  "filterParams": Object {},
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 50,
+  "sortingOrder": Array [
+    "asc",
+    "desc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipField": undefined,
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+}
+`;
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG should return default column definition with Number filterType 1`] = `
+Object {
+  "cellClass": "testCss",
+  "cellClassRules": Object {
+    "sg-cell-disabled": [Function],
+  },
+  "cellRendererFramework": Object {},
+  "field": "testColumn",
+  "filter": "agTextColumnFilter",
+  "filterParams": Object {
+    "caseSensitive": true,
+    "defaultOption": "contains",
+    "filterOptions": Array [
+      "contains",
+      "notContains",
+      "startsWith",
+      "endsWith",
+    ],
+    "textCustomComparator": [Function],
+  },
+  "floatingFilterComponentFramework": [Function],
+  "floatingFilterComponentParams": Object {
+    "suppressFilterButton": true,
+  },
+  "headerName": "Test Header",
+  "hide": true,
+  "keyCreator": [Function],
+  "lockVisible": false,
+  "maxWidth": 500,
+  "menuTabs": Array [
+    "generalMenuTab",
+    "filterMenuTab",
+    "columnsMenuTab",
+  ],
+  "minWidth": 50,
+  "sortingOrder": Array [
+    "asc",
+    "desc",
+    null,
+  ],
+  "tooltipComponentFramework": [Function],
+  "tooltipField": undefined,
+  "tooltipValueGetter": [Function],
+  "valueFormatter": [Function],
+}
+`;
+
+exports[`Static Grid Column Type Base Controller: BaseControllerSG should return keyCreator for groups 1`] = `
+Object {
+  "1": "1",
+  "[object Object]": "{\\"test\\":\\"value\\"}",
+  "test": "\\"test\\"",
+}
+`;

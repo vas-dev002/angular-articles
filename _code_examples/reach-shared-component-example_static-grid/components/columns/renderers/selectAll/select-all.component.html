@@ -1,0 +1,4 @@
+
+<div class="checkbox-styled-wrap" role="cell">
+  <mat-checkbox *ngIf="!suppressHeaderCheckBox" matTooltip="{{ tooltipText() | translate }}" matTooltipShowDelay="200" matTooltipPosition="above" (click)="selectionChange($event)" [indeterminate]="indeterminateState" [checked]="selectState" attr.aria-label="{{ 'SelectAll' | translate }}"></mat-checkbox>
+</div>

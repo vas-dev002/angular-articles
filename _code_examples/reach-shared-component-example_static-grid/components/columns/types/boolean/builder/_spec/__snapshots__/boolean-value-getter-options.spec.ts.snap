@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Builder option]: BooleanValueGetterOptions [BooleanValueGetterOptions instantiate] should be successfully created 1`] = `
+BooleanValueGetterOptions {
+  "columnName": "booleanImageColumn",
+  "getterFunction": [Function],
+}
+`;

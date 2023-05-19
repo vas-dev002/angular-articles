@@ -1,0 +1,13 @@
+div([ngClass] = "isDisabled ? 'cell-menu-settings-disabled' : 'cell-menu-settings'",
+		[matTooltipDisabled]="!isDisabled",
+		matTooltipShowDelay="500",
+		[matTooltip]="params.getCogMenuTooltip ? params.getCogMenuTooltip(params.data) : ''")
+	i.material-icons.mat-settings.mat-18([class.menu-trigger-opened] = "isOpened",
+		#overlayOrigin = "cdkOverlayOrigin", cdkOverlayOrigin = "")
+	das-overlay-menu([overlayOrigin] = "overlayOrigin",
+		(close) = "isOpened = false", (open) = "isOpened = true")
+		.menu
+			ul.menu-settings
+				ng-container(*ngFor="let item of items")
+					li(*ngIf = "!show(item)", (click)="onClick(item)")
+						span([ngClass]="item.css") {{ item.name | translate }}

@@ -1,0 +1,99 @@
+@import "mixins/mixins";
+@import "variables/variables";
+
+:host {
+    flex: none;
+    flex-grow: 1;
+}
+
+.ifl-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+
+    .ifl-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        width: 50%;
+
+        &-follower{
+            gap: 4px;
+            flex: none;
+            flex-grow: 1;
+        }
+    
+        .ifl-label { 
+            @include text('text-main', 'xs', 'regular', 'low');
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;    
+            flex: none;
+            flex-grow: 0;
+        }
+        
+        .ifl-value {
+            &:focus {
+                border: 1px solid map-get($colors, 'blue-primary');
+            }
+            @include text('text-main', 'xs', 'regular', 'low');
+            font-size: 12px;
+            line-height: 18px;
+            box-sizing: border-box;
+            background: #FFFFFF;
+            border: 1px solid #C5C5C5;
+            border-radius: 3px; 
+            display: flex;
+            align-items: center;
+            flex: none;
+            flex-grow: 1;
+            &-engagement {
+                position: relative;
+                width: 46px; 
+                border: none;
+                &> input {
+                    &:focus {
+                        border: 1px solid map-get($colors, 'blue-primary');
+                    }
+                    @include text('text-main', 'xs', 'regular', 'low');   
+                    font-size: 12px;
+                    line-height: 18px;  
+                    border: 1px solid #C5C5C5;
+                    border-radius: 3px; 
+                    background: transparent;
+                    padding-left: 4px;   
+                    padding-right: 11px;  
+                    width: 100%;
+                }
+            }
+            &-follower{
+                padding-left: 4px;  
+                width: 48px;
+            }
+
+            .ifl-suffix {
+                padding-left: 5px;
+                align-items: center;
+                display: flex;
+                left: 0;
+                pointer-events: none;
+                position: absolute;
+                right: 0;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+                >span {
+                    opacity: 0;
+                    pointer-events: none;
+                    user-select: none;
+                }
+            }
+        }  
+    }
+}

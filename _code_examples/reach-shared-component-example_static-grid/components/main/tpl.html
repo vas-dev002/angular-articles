@@ -1,0 +1,7 @@
+
+<div id="agGridTable" *ngIf="hasData" tabindex="-1" [class]="disabled ? 'ag-readonly-mode' : 'aggrid-container'">
+  <ag-grid-angular class="ag-theme-dashworks mini" #agGrid="" [gridOptions]="gridOptions" (gridReady)="onReady($event)" (firstDataRendered)="onFirstDataRendered($event)" [rowData]="rowData" [columnDefs]="columnDefs" [modules]="agGridModules" [ngStyle]="gridStyles" [ngClass]="{'table-drag' : options.enableRowDragAndDrop}"></ag-grid-angular>
+</div>
+<div id="agGridTableEmpty" *ngIf="!hasData">
+  <div class="empty-message">{{ emptyMessage | translate }}</div>
+</div>

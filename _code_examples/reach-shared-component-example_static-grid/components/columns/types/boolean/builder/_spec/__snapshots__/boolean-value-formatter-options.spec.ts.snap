@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Builder option]: BooleanValueFormatterOptions [BooleanValueFormatterOptions instantiate] should be successfully created 1`] = `
+BooleanValueFormatterOptions {
+  "formatterFunction": [Function],
+  "langService": TranslateService {
+    "_langs": Array [],
+    "_onDefaultLangChange": EventEmitter_ {
+      "__isAsync": false,
+      "_isScalar": false,
+      "closed": false,
+      "hasError": false,
+      "isStopped": false,
+      "observers": Array [],
+      "thrownError": null,
+    },
+    "_onLangChange": EventEmitter_ {
+      "__isAsync": false,
+      "_isScalar": false,
+      "closed": false,
+      "hasError": false,
+      "isStopped": false,
+      "observers": Array [],
+      "thrownError": null,
+    },
+    "_onTranslationChange": EventEmitter_ {
+      "__isAsync": false,
+      "_isScalar": false,
+      "closed": false,
+      "hasError": false,
+      "isStopped": false,
+      "observers": Array [],
+      "thrownError": null,
+    },
+    "_translationRequests": Object {},
+    "_translations": Object {},
+    "compiler": TranslateFakeCompiler {},
+    "currentLoader": TranslateFakeLoader {},
+    "extend": false,
+    "isolate": false,
+    "missingTranslationHandler": FakeMissingTranslationHandler {},
+    "parser": TranslateDefaultParser {
+      "templateMatcher": /\\{\\{\\\\s\\?\\(\\[\\^\\{\\}\\\\s\\]\\*\\)\\\\s\\?\\}\\}/g,
+    },
+    "pending": false,
+    "store": TranslateStore {
+      "currentLang": undefined,
+      "langs": Array [],
+      "onDefaultLangChange": EventEmitter_ {
+        "__isAsync": false,
+        "_isScalar": false,
+        "closed": false,
+        "hasError": false,
+        "isStopped": false,
+        "observers": Array [],
+        "thrownError": null,
+      },
+      "onLangChange": EventEmitter_ {
+        "__isAsync": false,
+        "_isScalar": false,
+        "closed": false,
+        "hasError": false,
+        "isStopped": false,
+        "observers": Array [],
+        "thrownError": null,
+      },
+      "onTranslationChange": EventEmitter_ {
+        "__isAsync": false,
+        "_isScalar": false,
+        "closed": false,
+        "hasError": false,
+        "isStopped": false,
+        "observers": Array [],
+        "thrownError": null,
+      },
+      "translations": Object {},
+    },
+    "useDefaultLang": true,
+  },
+}
+`;

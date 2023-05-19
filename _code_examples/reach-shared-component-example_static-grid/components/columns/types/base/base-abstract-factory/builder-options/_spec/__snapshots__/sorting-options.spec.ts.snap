@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Option]: SortingOptions [SortingOptions instantiate] should be successfully created 1`] = `
+SortingOptions {
+  "comparator": [Function],
+  "sortingOrder": Array [
+    "asc",
+    "desc",
+    null,
+  ],
+}
+`;

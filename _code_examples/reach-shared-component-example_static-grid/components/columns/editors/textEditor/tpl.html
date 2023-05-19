@@ -1,0 +1,6 @@
+
+<div class="input-wrapper">
+  <input class="form-control" matInput="" type="text" attr.aria-label="{{ 'Insert' | translate }} {{ 'Value' | translate }}" [formControl]="frm" [maxLength]="maxLength" autoFocus="" (keydown)="onKey($event)"/>
+  <button class="btn input-toggle btn-save" type="button" mat-icon-button="" matTooltipShowDelay="500" matTooltip="{{ 'Save' | translate }}" automationAriaLabelClass="Save" (click)="save()"><i class="material-icons mat-done"></i></button>
+  <button class="btn input-toggle" type="button" mat-icon-button="" matTooltipShowDelay="500" matTooltip="{{ 'Cancel' | translate }}" automationAriaLabelClass="Cancel" (click)="cancel()"><i class="material-icons mat-clear"></i></button>
+</div>

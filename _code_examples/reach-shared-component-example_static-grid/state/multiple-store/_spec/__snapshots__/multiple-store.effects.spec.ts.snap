@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Multiple Store Effects ngrxOnRunEffects - should return observable 1`] = `
+Observable {
+  "_isScalar": false,
+  "operator": TakeUntilOperator {
+    "notifier": Actions {
+      "_isScalar": false,
+      "operator": FilterOperator {
+        "predicate": [Function],
+        "thisArg": undefined,
+      },
+      "source": Actions {
+        "_isScalar": false,
+        "operator": FilterOperator {
+          "predicate": [Function],
+          "thisArg": undefined,
+        },
+        "source": Actions {
+          "_isScalar": false,
+          "source": Observable {
+            "_isScalar": false,
+            "_subscribe": [Function],
+          },
+        },
+      },
+    },
+  },
+  "source": Observable {
+    "_isScalar": false,
+    "_subscribe": [Function],
+  },
+}
+`;
